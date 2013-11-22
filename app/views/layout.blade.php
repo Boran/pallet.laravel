@@ -46,7 +46,7 @@
 <body>
     <h1>Pallet tool</h1>
     <div class="welcome">
-        <h3>You have arrived at the hello view via the PalletController.</h3>
+        <h3>You have arrived at layout.blade.php view via the PalletController.</h3>
         @yield('content')
     </div>
 </body>

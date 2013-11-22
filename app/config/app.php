@@ -12,7 +12,6 @@ return array(
 	| application. If disabled, a simple generic error page is shown.
 	|
 	*/
-
 	'debug' => true,
 
 	/*
@@ -25,7 +24,6 @@ return array(
 	| your application so that it is used when running Artisan tasks.
 	|
 	*/
-
 	'url' => 'http://localhost',
 
 	/*

@@ -103,7 +103,7 @@ class Pallet {
      * Create the pallet image, based on the pallet spec
      * store image location in $image_path
      */
-    public function makePallet()
+    public function drawPallet()
     {
         $layout=$this->layout;
         $rollwidth_mm=$this->rollwidth_mm;
