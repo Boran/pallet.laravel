@@ -1,20 +1,21 @@
 ## Pallet/layout tool
-Example using *laravel*
-(see also the original and dsymfony based ones on the same github account (boran)
+Initila example code using 'laravel'
+(see also the original and symfony2 based ones on the boran github account)
 
 Notes on the laravel port:
-- A model (pallet object exists), it is instantianted and default values show on a form
+- A model (pallet object) exists, it is instantianted and default values show on a form
 - A controller and views exist
 - Issues
-    creating form output on the same page as the form
+  - creating form output on the same page as the form
     ==> how to get the form results back into the same object?
         could Input::flash(); help?
-    Form: resize text fields,. Pull labels from moduel
+  - Form: resize text fields,
+  - Pull labels from moduel
 
-Its been easier to get going on Laravel and the the syntax is nicer indeed.
-But I'm starting to see limitatiosn compared with symfony: the form component is not so powerful for example.
-The document is quite good, but limited (I've not bought any of the commercial book yet. It will probably be necessary if really diving into laravel).
-Just have found out that there is basically just one author is worrying too (if he sound slike a great guy from listening to the podcasts).
+Its been easier (than symfony) to get going on Laravel and the the syntax is nicer indeed.
+But I'm starting to see limitations compared with symfony: the form component is not as powerful for example.
+The documentation is quite good, but limited (I've not bought any of the commercial book yet. It will probably be necessary if really diving into laravel).
+Just ound out that there is basically just one author for Laravel: that is worrying (even if he sounds like a great guy from listening to the podcasts).
 
 ----------------------------------
 Allow reels to be optimally laid out on a Pallet.
